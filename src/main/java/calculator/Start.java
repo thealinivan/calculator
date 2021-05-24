@@ -13,8 +13,12 @@ public class Start {
 		final String [][] names = {
 				{"3", "Fizz"},
 				{"5", "Buzz"},
-				{"7", "Neeze"}
+				{"7", "Neeze"}, 
+				{"8", "Bluke"}
 		};
+		
+		
+		
 		
 		//initiate arrays for numbers range and fizz buzz dictionary
 		ArrayList<Integer> numbersRange = new ArrayList<Integer>();
@@ -28,10 +32,16 @@ public class Start {
 			quotingDict.add(new Fizz(Integer.parseInt(names[i][0]), names[i][1]));
 		}
 		
+		
+		
+		
 		//run fizz buzz methods
-		//fizzBuzz(numbersRange, quotingDict);
-		searchFizzBuzz(quotingDict);
+		fizzBuzz(numbersRange, quotingDict);
+		//searchFizzBuzz(quotingDict);
 	}
+	
+	
+	
 	
 	//fizz buzz algorithm
 	public static void fizzBuzz (ArrayList<Integer> numbersRange, ArrayList<Fizz> dict) {
@@ -46,6 +56,8 @@ public class Start {
 				        output = "";       
 				    }
 	}
+	
+	
 	
 	//fizz buzz search algorithm
 	public static void searchFizzBuzz (ArrayList<Fizz> dict) {
@@ -75,6 +87,9 @@ public class Start {
 		        output = "";       
 		   
 		}
+		
+		
+		
 	}
 	
 	
