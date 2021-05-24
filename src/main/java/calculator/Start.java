@@ -7,7 +7,7 @@ public class Start {
 	
 	public static void main(String[] arg) {
 		
-		//define numbers range and fizz buzz dictionary
+		//Define numbers range and fizz buzz dictionary
 		final int rangeStart = 1;
 		final int rangeEnd = 50;
 		final String [][] names = {
@@ -16,9 +16,6 @@ public class Start {
 				{"7", "Neeze"}, 
 				{"8", "Bluke"}
 		};
-		
-		
-		
 		
 		//initiate arrays for numbers range and fizz buzz dictionary
 		ArrayList<Integer> numbersRange = new ArrayList<Integer>();
